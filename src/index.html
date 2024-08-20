@@ -4,10 +4,28 @@
 		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
-			content="width=S, initial-scale=1.0"
+			content="width=device-width, initial-scale=1.0"
 		/>
-		<title>Ethernet customers</title>
+		<title>Ethernet Customer Tracking App</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="logo">
+					<a href="/">Ethernet Tracker</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="/">Home</a></li>
+					<li><a href="/customers">Customers</a></li>
+				</ul>
+				<div class="auth-links">
+					<a href="/login" class="login-btn">Login</a>
+					<a href="/logout" class="logout-btn">Logout</a>
+				</div>
+			</nav>
+		</header>
+
+		<script src="app.js" type="module"></script>
+	</body>
 </html>
