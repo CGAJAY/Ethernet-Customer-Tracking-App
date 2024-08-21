@@ -56,3 +56,68 @@ header {
 .auth-links a:hover {
 	background-color: #575757;
 }
+.hero {
+	background-image: url("./images/hero.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 100px 20px;
+	text-align: center;
+	color: #fff;
+	height: 500px;
+}
+
+.hero-content {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+}
+.features {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 20px;
+	background-color: #f8f9fa;
+}
+
+.feature {
+	text-align: center;
+	max-width: 300px;
+}
+
+.feature h2 {
+	font-size: 2rem;
+	margin-bottom: 15px;
+}
+
+.feature p {
+	font-size: 1.2rem;
+	color: #6c757d;
+}
+.footer {
+	background-color: #343a40;
+	padding: 20px 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.footer a {
+	color: #007bff;
+	text-decoration: none;
+}

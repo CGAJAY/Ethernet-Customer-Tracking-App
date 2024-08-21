@@ -10,21 +10,61 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<header>
-			<nav class="navbar">
-				<div class="logo">
-					<a href="/">Ethernet Tracker</a>
+		<div class="container">
+			<header>
+				<nav class="navbar">
+					<div class="logo">
+						<a href="/">Ethernet Tracker</a>
+					</div>
+					<ul class="nav-links">
+						<li><a href="/">Home</a></li>
+						<li><a href="/customers">Customers</a></li>
+					</ul>
+					<div class="auth-links">
+						<a href="/login" class="login-btn">Login</a>
+						<a href="/logout" class="logout-btn">Logout</a>
+					</div>
+				</nav>
+			</header>
+			<section class="hero">
+				<div class="hero-content">
+					<h1>Manage Your Ethernet Customers with Ease</h1>
+					<p>
+						Track payments and manage customer information
+						seamlessly.
+					</p>
+					<a href="#customers" class="btn-primary"
+						>Get Started</a
+					>
 				</div>
-				<ul class="nav-links">
-					<li><a href="/">Home</a></li>
-					<li><a href="/customers">Customers</a></li>
-				</ul>
-				<div class="auth-links">
-					<a href="/login" class="login-btn">Login</a>
-					<a href="/logout" class="logout-btn">Logout</a>
+			</section>
+			<section class="features">
+				<div class="feature">
+					<h2>Track Payments</h2>
+					<p>Easily monitor who has paid and who hasn't.</p>
 				</div>
-			</nav>
-		</header>
+				<div class="feature">
+					<h2>Manage Customer Data</h2>
+					<p>
+						Add, edit, and remove customer information
+						effortlessly.
+					</p>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="container">
+					<p>
+						&copy; 2024 Ethernet Customer Tracking App. All
+						Rights Reserved.
+					</p>
+					<p>
+						Contact Us: info@ethernetapp.com | Follow us on
+						<a href="#">Twitter</a> |
+						<a href="#">LinkedIn</a>
+					</p>
+				</div>
+			</footer>
+		</div>
 
 		<script src="app.js" type="module"></script>
 	</body>
