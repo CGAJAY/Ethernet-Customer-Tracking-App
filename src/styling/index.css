@@ -57,7 +57,7 @@ header {
 	background-color: #575757;
 }
 .hero {
-	background-image: url("./images/hero.jpg");
+	background-image: url("../images/hero.jpg");
 	background-size: cover;
 	background-position: center;
 	padding: 100px 20px;
