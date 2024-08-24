@@ -1,0 +1,16 @@
+{
+	"name": "new",
+	"version": "1.0.0",
+	"description": "The Ethernet Customer Tracking App is a web-based application designed to help manage customers and their payment status for ethernet services. The app allows the user to add, edit, and delete customer information, track payment status, and send notifications for due payments.",
+	"main": "public/server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node public/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2"
+	}
+}
