@@ -5,12 +5,14 @@
 	"main": "public/server.js",
 	"type": "module",
 	"scripts": {
-		"start": "node public/server.js"
+		"start": "node public/server.js",
+		"dev": "nodemon public/server.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"express": "^4.19.2"
+		"express": "^4.19.2",
+		"mongodb": "^6.8.0"
 	}
 }
